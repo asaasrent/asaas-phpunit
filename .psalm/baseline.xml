@@ -740,8 +740,9 @@
     </PossiblyInvalidPropertyAssignmentValue>
   </file>
   <file src="src/Framework/MockObject/MockMethod.php">
-    <MissingThrowsDocblock occurrences="2">
+    <MissingThrowsDocblock occurrences="3">
       <code>new \Text_Template($filename)</code>
+      <code>self::getMethodParametersForCall($method)</code>
     </MissingThrowsDocblock>
     <PossiblyNullReference occurrences="1">
       <code>allowsNull</code>
